@@ -1,38 +1,50 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=32&duration=3000&pause=1200&color=E4111E&center=true&vCenter=true&width=650&lines=Hi%21+Ritaja%2C+this+side...;Welcome+to+my+Death+Note+%F0%9F%93%92;I+write+code%2C+not+names.;AI%2FML+Intern+%7C+Deep+Learning" alt="Typing SVG" />
+<!-- 🖤 Death Note Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a0000,100:8B0000&height=250&section=header&text=📓%20RITAJA%20📓&fontSize=55&fontColor=E4111E&animation=twinkling&fontAlignY=35&desc=☠️%20THE%20HUMAN%20WHOSE%20NAME%20IS%20WRITTEN%20HERE%20☠️&descAlignY=52&descAlign=50&descSize=20" width="100%"/>
+
+<!-- ✒️ Typing Effect -->
+<img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=28&duration=2500&pause=800&color=E4111E&center=true&vCenter=true&width=900&height=80&lines=Hi%21+Ritaja%2C+this+side...;I+only+write+clean+code+in+this+notebook.;AI%2FML+Intern+%7C+Deep+Learning+%26+NLP;The+human+whose+hand+touches+this+repo...;Justice+is+deploying+bug-free+models." alt="Typing SVG" />
+
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/Avatars/pixel-avatar.gif" width="140" style="margin: 15px 0; filter: grayscale(60%) sepia(30%) hue-rotate(-40deg);"/>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:8B0000&height=180&section=header&text=THE%20HUMAN%20WHOSE%20HAND%20TOUCHES%20THIS%20REPO&fontColor=E4111E&fontSize=26&animation=fadeIn&fontAlignY=38" />
+```diff
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@                       📓 DEATH NOTE — RULES OF OWNERSHIP 📓                    @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+```
 
 <div align="center">
   <img src="https://img.shields.io/badge/RULE%20I-Whoever%20forks%20this%20repo%20shall%20star%20it-black?style=for-the-badge&labelColor=8B0000&color=000000" />
 </div>
 
-<br>
+---
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Kira-Ritaja-black?style=for-the-badge&logo=github&logoColor=E4111E&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Status-AI%2FML%20Intern-black?style=for-the-badge&labelColor=000000&color=8B0000" />
-  <img src="https://img.shields.io/badge/Notebook-Deep%20Learning%20%7C%20NLP-black?style=for-the-badge&labelColor=000000&color=E4111E" />
-</div>
+## <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=32&duration=2000&pause=500&color=E4111E&center=false&vCenter=true&width=700&lines=📖+PROFILE+ENTRY" alt="Profile Entry" />
 
-<br>
-
-## 📓 The Rules (About Me)
-
-```
-Rule 1  : This human is an AI/ML intern, obsessed with training models, not shinigami.
-Rule 2  : Interests span Machine Learning, Deep Learning, NLP & applied AI.
-Rule 3  : Currently exploring AI in food supply chains & demand forecasting.
-Rule 4  : Believes clean code is justice.
-Rule 5  : If it compiles on the first try... something is wrong.
+```diff
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
++ ╔═══════════════════════════════════════════════════════════════════════════╗
++ ║  >> NAME       : Ritaja                                                   ║
++ ║  >> ROLE       : AI / ML Summer Intern                                    ║
++ ║  >> FIELDS     : Machine Learning · Deep Learning · NLP                   ║
++ ║  >> RESEARCH   : AI for food supply chains & demand forecasting           ║
++ ║  >> CAUSE OF DEATH (for bugs) : Heart Attack, obviously                   ║
++ ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
-<br>
+---
 
-## ⚔️ Weapons of Choice (Skills)
+## <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=32&duration=2000&pause=500&color=8B0000&center=false&vCenter=true&width=700&lines=⚔️+WEAPONS+OF+CHOICE" alt="Skills" />
+
+```diff
+! ╔═══════════════════════════════════════════════════════════════════════════╗
+! ║  ANALYZING SKILL PAGES...                                                 ║
+! ║  NOTEBOOK ENTRIES: LOADED                                                 ║
+! ╚═══════════════════════════════════════════════════════════════════════════╝
+```
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,c,java,html,mysql&theme=dark" />
@@ -42,45 +54,59 @@ Rule 5  : If it compiles on the first try... something is wrong.
 
 <div align="center">
 
-| Language / Tool | Wielded For |
-|:---:|:---:|
-| 🐍 Python | ML, DL, NLP, scripting |
-| ⚙️ C | Systems & logic building |
-| ☕ Java | OOP & backend logic |
-| 🗄️ DBMS | Structured data, SQL queries |
-| 🌐 HTML | Web structure & markup |
+| Page | Skill | Written For |
+|:---:|:---:|:---|
+| 🐍 | **Python** | ML, DL, NLP, automation |
+| ⚙️ | **C** | Systems & core logic |
+| ☕ | **Java** | OOP & backend structure |
+| 🗄️ | **DBMS** | Structured data, SQL queries |
+| 🌐 | **HTML** | Web markup & structure |
 
 </div>
 
-<br>
+---
 
-## 🐍 The Notebook Consumes Contributions
+## <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=32&duration=2000&pause=500&color=E4111E&center=false&vCenter=true&width=700&lines=🐍+THE+NOTEBOOK+CONSUMES+COMMITS" alt="Snake" />
+
+```diff
+! ╔═══════════════════════════════════════════════════════════════════════════╗
+! ║  A CONTRIBUTION SNAKE DEVOURS THE GRID BELOW EVERY NIGHT AT MIDNIGHT      ║
+! ╚═══════════════════════════════════════════════════════════════════════════╝
+```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Ritaja-git/Ritaja-git/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/Ritaja-git/Ritaja-git/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%"/>
 </div>
 
-<br>
+---
 
-## 📊 Death Note Stats Page
+## <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=32&duration=2000&pause=500&color=8B0000&center=false&vCenter=true&width=700&lines=📊+CASE+FILE+STATISTICS" alt="Stats" />
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ritaja-git&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=E4111E&icon_color=8B0000&text_color=ffffff" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ritaja-git&theme=dark&hide_border=true&background=000000&ring=E4111E&fire=8B0000&currStreakLabel=E4111E" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Ritaja-git&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=E4111E&icon_color=8B0000&text_color=ffffff" height="170"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ritaja-git&theme=dark&hide_border=true&background=000000&ring=E4111E&fire=8B0000&currStreakLabel=E4111E" height="170"/>
 </div>
-
-<br>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ritaja-git&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=E4111E&text_color=ffffff" />
 </div>
 
-<br>
+---
+
+## <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=32&duration=2000&pause=500&color=E4111E&center=false&vCenter=true&width=700&lines=📜+ACTIVE+ENTRIES" alt="Quest Log" />
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=E4111E&center=true&vCenter=true&width=850&lines=%E2%9C%85+WRITTEN%3A+Trained+first+deep+learning+model;%E2%9C%85+WRITTEN%3A+Built+NLP+pipeline+for+text+data;%F0%9F%94%84+IN+PROGRESS%3A+Demand+forecasting+for+food+supply+chains;%F0%9F%94%84+IN+PROGRESS%3A+Exploring+applied+AI+use+cases;%F0%9F%A7%AA+RESEARCH%3A+New+architectures+for+NLP" alt="Quest Status" />
+
+</div>
+
+---
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,100:000000&height=120&section=footer" />
 </div>
 
 <div align="center">
-  <sub>“Just as humans fear death, I fear pull requests I don't understand.” — L, probably</sub>
+  <sub>"Just as humans fear death, I fear pull requests I don't understand." — L, probably</sub>
 </div>
