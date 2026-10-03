@@ -1,177 +1,103 @@
-<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0b0b0b,8b0000,d90429&height=190&section=header&text=THE%20RITAJA%20HEIST&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
-
-# 🟥 RITAJA CHOUDHURY
-
-### `The plan is simple. Build. Break. Learn. Repeat.`
-
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=700&size=23&duration=3500&pause=700&color=D90429&center=true&vCenter=true&width=750&lines=Hi%21+Ritaja%2C+here...;B.Tech+CSE+Student;Python+Developer;Java+%7C+C%2FC%2B%2B+Programmer;AI+%26+Web+Developer;Building+Ideas+Into+Reality" alt="Typing animation"/>
+</td>
+<td width="40%">
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/Girl%20Coding.gif" width="100%"/>
+</td>
+</tr>
+</table>
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/ritajachoudhury)
+## 🧸 Skills & Tools
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-8B0000?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/ritajachoudhury)
-
-[![Email](https://img.shields.io/badge/Email-D90429?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:ritajachoudhury%40gmail.com)
-
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,c,java,html,mysql&theme=light" />
 </div>
 
----
-
-# 🟥 THE HEIST BRIEF
-
-> **"A plan is only as good as its execution."**
-
-I am **Ritaja Choudhury**, a **B.Tech Computer Science and Engineering student** passionate about software development, artificial intelligence, and building practical applications.
-
-My main programming languages include **Python, C/C++, Java, JavaScript, and SQL**. I enjoy working on projects that combine programming, AI, web technologies, and real-world problem solving.
-
-Currently exploring new technologies, improving my development skills, and turning ideas into functional projects.
-
----
-
-# 🎭 THE CREW PROFILE
+<br>
 
 <div align="center">
 
-| CLASSIFICATION      | DETAILS                               |
-| ------------------- | ------------------------------------- |
-| 🎓 Role             | B.Tech CSE Student                    |
-| 🐍 Primary Language | Python                                |
-| ☕ Programming       | Java, C, C++                          |
-| 🌐 Web              | HTML, CSS, JavaScript                 |
-| 🗄️ Database        | SQL                                   |
-| ⚡ Backend           | Flask, FastAPI                        |
-| 🤖 Interests        | AI, Machine Learning, Web Development |
-| 🛠️ Tools           | Git, GitHub, VS Code, Antigravity     |
+| 🌟 Skill | 💫 Used For |
+|:---:|:---|
+| 🐍 **Python** | ML, DL, NLP, automation |
+| ⚙️ **C** | Systems & core logic |
+| ☕ **Java** | OOP & backend structure |
+| 🗄️ **DBMS** | Structured data, SQL queries |
+| 🌐 **HTML** | Web markup & structure |
 
 </div>
 
----
+<br>
 
-# 💻 THE HEIST TOOLKIT
-
-## 🐍 PROGRAMMING
-
-![Python](https://img.shields.io/badge/Python-D90429?style=for-the-badge\&logo=python\&logoColor=white)
-
-![C](https://img.shields.io/badge/C-111111?style=for-the-badge\&logo=c\&logoColor=white)
-
-![C++](https://img.shields.io/badge/C%2B%2B-8B0000?style=for-the-badge\&logo=cplusplus\&logoColor=white)
-
-![Java](https://img.shields.io/badge/Java-D90429?style=for-the-badge\&logo=openjdk\&logoColor=white)
-
-![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge\&logo=javascript\&logoColor=F7DF1E)
-
-![SQL](https://img.shields.io/badge/SQL-8B0000?style=for-the-badge\&logo=mysql\&logoColor=white)
-
----
-
-## 🌐 WEB AND BACKEND
-
-![HTML5](https://img.shields.io/badge/HTML5-D90429?style=for-the-badge\&logo=html5\&logoColor=white)
-
-![CSS3](https://img.shields.io/badge/CSS3-111111?style=for-the-badge\&logo=css3\&logoColor=white)
-
-![Flask](https://img.shields.io/badge/Flask-8B0000?style=for-the-badge\&logo=flask\&logoColor=white)
-
-![FastAPI](https://img.shields.io/badge/FastAPI-D90429?style=for-the-badge\&logo=fastapi\&logoColor=white)
-
----
-
-## 🧰 TOOLS
-
-![Git](https://img.shields.io/badge/Git-111111?style=for-the-badge\&logo=git\&logoColor=white)
-
-![GitHub](https://img.shields.io/badge/GitHub-8B0000?style=for-the-badge\&logo=github\&logoColor=white)
-
-![VS Code](https://img.shields.io/badge/VS%20Code-D90429?style=for-the-badge\&logo=visualstudiocode\&logoColor=white)
-
----
-
-# 🎮 THE VAULT GAME
+## 🌼 Choose Your Class
 
 <div align="center">
 
-## 🐍 SNAKE
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=18&duration=3000&pause=1500&color=B983C4&center=true&vCenter=true&width=850&lines=%F0%9F%90%8D+DATA+BLOSSOM+%7C+Grows+insights+from+raw+data;%F0%9F%92%BB+CODE+GARDENER+%7C+Tends+systems+%26+backend+logic;%F0%9F%8C%B8+WEB+WEAVER+%7C+Crafts+clean+markup+%26+structure;%E2%9C%A8+Every+skill+blooms+with+practice;%F0%9F%8D%AF+Choose+your+favorite%2C+little+apprentice" alt="Class Descriptions" />
 
-### `THE VAULT IS LOCKED.`
-
-**Your mission: survive as long as possible.**
-
-[![PLAY SNAKE](https://img.shields.io/badge/PLAY%20SNAKE-D90429?style=for-the-badge\&logo=gamepad\&logoColor=white)](https://ritajachoudhury.github.io/snake-game/)
-
-<br><br>
-
-`W A S D`  or  `ARROW KEYS`
-
-`EAT` → `GROW` → `SCORE` → `SURVIVE`
+| 🌸 Class | 💫 Specialization | 🍡 Project Portal |
+|:------|:---------------|:---------------|
+| 🐍 **Data Blossom** | Python for ML, DL & NLP | [Project Name](https://github.com/introducingrit) |
+| ⚙️ **Code Gardener** | C & Java — systems and OOP logic | [Project Name](https://github.com/introducingrit) |
+| 🗄️ **Archive Keeper** | DBMS — structured data & SQL | [Project Name](https://github.com/introducingrit) |
+| 🌐 **Web Weaver** | HTML — markup & structure | [Project Name](https://github.com/introducingrit) |
 
 </div>
 
----
+<br>
 
-# 🎯 CURRENT MISSION
-
-```text
-╔══════════════════════════════════════════╗
-║              THE PLAN                    ║
-╠══════════════════════════════════════════╣
-║ 01. Improve problem-solving skills       ║
-║ 02. Build practical software             ║
-║ 03. Explore AI and Machine Learning      ║
-║ 04. Master Python and Java               ║
-║ 05. Build innovative web applications    ║
-║ 06. Collaborate on interesting projects  ║
-╚══════════════════════════════════════════╝
-```
-
----
-
-# 💡 THE HEIST CODE
-
-```python
-while learning:
-
-    plan()
-    code()
-    test()
-    debug()
-    build()
-
-    repeat()
-```
-
-> **Think like the Professor. Code like the crew.**
-
----
-
-# 📡 ESTABLISH CONTACT
+## 🌈 Tech Toolbox
 
 <div align="center">
 
-## RITAJA CHOUDHURY
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=17&duration=3200&pause=1000&color=B983C4&center=true&vCenter=true&width=850&lines=%F0%9F%90%8D+Loading+Python+toolkit...;%E2%9A%99%EF%B8%8F+Warming+up+C...;%E2%98%95+Brewing+Java...;%F0%9F%97%84%EF%B8%8F+Organizing+DBMS...;%F0%9F%8C%B8+Sprinkling+HTML+magic..." alt="Tech Loading" />
 
-**B.Tech Computer Science and Engineering**
-
-📧 `ritajachoudhury&#64;gmail.com`
-
-[![LINKEDIN](https://img.shields.io/badge/LINKEDIN-8B0000?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/ritajachoudhury)
-
-[![GITHUB](https://img.shields.io/badge/GITHUB-111111?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/ritajachoudhury)
+![Python](https://img.shields.io/badge/Python-FFD1DC?style=for-the-badge&logo=python&logoColor=6B4C7A&labelColor=FFF3B0)
+![C](https://img.shields.io/badge/C-C1F0F6?style=for-the-badge&logo=c&logoColor=6B4C7A&labelColor=D8C9F0)
+![Java](https://img.shields.io/badge/Java-D8C9F0?style=for-the-badge&logo=openjdk&logoColor=6B4C7A&labelColor=C9F7D3)
+![HTML](https://img.shields.io/badge/HTML-C9F7D3?style=for-the-badge&logo=html5&logoColor=6B4C7A&labelColor=FFD1DC)
+![MySQL](https://img.shields.io/badge/DBMS-FFF3B0?style=for-the-badge&logo=mysql&logoColor=6B4C7A&labelColor=C1F0F6)
 
 </div>
 
----
+<br>
+
+## 🐣 My Contribution Snake
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/introducingrit/introducingrit/output/pastel-snake.svg" alt="pastel snake animation" width="100%"/>
+</div>
+
+<br>
+
+## 🍬 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=introducingrit&show_icons=true&theme=cobalt2&hide_border=true&bg_color=00000000&title_color=FF9EBB&icon_color=B983C4&text_color=6B4C7A" height="170"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=introducingrit&hide_border=true&background=00000000&ring=FF9EBB&fire=FFD1DC&currStreakLabel=B983C4" height="170"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=introducingrit&layout=compact&hide_border=true&bg_color=00000000&title_color=FF9EBB&text_color=6B4C7A" />
+</div>
+
+<br>
+
+## 🎨 Currently
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=ritajachoudhury&label=PROFILE%20VIEWS&color=D90429&style=for-the-badge" alt="Profile Views"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=17&duration=3000&pause=1000&color=B983C4&center=true&vCenter=true&width=820&lines=%F0%9F%8C%B1+Trained+my+first+deep+learning+model;%F0%9F%92%AC+Built+an+NLP+pipeline+for+text+data;%F0%9F%8D%9E+Working+on+demand+forecasting+for+food+supply+chains;%F0%9F%8E%80+Exploring+more+applied+AI+use+cases;%F0%9F%8C%B7+Always+learning%2C+always+curious" alt="status" />
 
-### 🟥 THE HEIST IS NEVER OVER.
+</div>
 
-**CODE • BUILD • LEARN • REPEAT**
+<br>
 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C9F7D3,25:FFF3B0,50:D8C9F0,75:C1F0F6,100:FFD1DC&height=120&section=footer" />
+</div>
+
+<div align="center">
+  <sub>thanks for stopping by — grab some tea ☕ and stay a while 🌸</sub>
 </div>
