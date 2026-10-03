@@ -178,13 +178,22 @@ When I'm not building something, I'm probably sharpening my problem-solving on L
 
 ```text
 🌸─────────────────────────────────────────────────────🌸
-   🎮 code & blossom memory match — flip, match, repeat
+   🎮 a little pastel arcade — pick your game
 🌸─────────────────────────────────────────────────────🌸
 ```
 
 <div align="center">
   <a href="https://introducingrit.github.io/introducingrit/memory-match/">
-    <img src="https://img.shields.io/badge/PLAY%20MEMORY%20MATCH-FFD1DC?style=for-the-badge&logo=gamepad&logoColor=6B4C7A&labelColor=D8C9F0" />
+    <img src="https://img.shields.io/badge/MEMORY%20MATCH-FFD1DC?style=for-the-badge&logo=gamepad&logoColor=6B4C7A&labelColor=D8C9F0" />
+  </a>
+  <a href="https://introducingrit.github.io/introducingrit/tic-tac-toe/">
+    <img src="https://img.shields.io/badge/TIC%20TAC%20TOE-C1F0F6?style=for-the-badge&logo=gamepad&logoColor=6B4C7A&labelColor=D8C9F0" />
+  </a>
+  <a href="https://introducingrit.github.io/introducingrit/2048/">
+    <img src="https://img.shields.io/badge/2048-FFF3B0?style=for-the-badge&logo=gamepad&logoColor=6B4C7A&labelColor=D8C9F0" />
+  </a>
+  <a href="https://introducingrit.github.io/introducingrit/typing-test/">
+    <img src="https://img.shields.io/badge/TYPING%20TEST-C9F7D3?style=for-the-badge&logo=gamepad&logoColor=6B4C7A&labelColor=D8C9F0" />
   </a>
 </div>
 
