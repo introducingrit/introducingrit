@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Code &amp; Blossom — Tic-Tac-Toe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-top: #FFF8FB;
+    --bg-bottom: #F3ECFA;
+    --accent: #B983C4;
+    --accent-soft: #C1F0F6;
+    --pink: #FFD1DC;
+    --lilac: #D8C9F0;
+    --success: #9FE6B8;
+    --success-soft: #E4FBEC;
+    --text: #6B4C7A;
+    --muted: #A68FB8;
+    --shadow: rgba(185, 131, 196, 0.25);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at top, var(--bg-top), var(--bg-bottom));
+    color: var(--text); padding: 32px 16px;
+  }
+  .wrap { width: 100%; max-width: 420px; text-align: center; }
+  h1 { font-size: 26px; font-weight: 700; margin: 0 0 4px; }
+  .subtitle { font-size: 14px; font-weight: 500; color: var(--muted); margin: 0 0 18px; }
+  .stats { display: flex; justify-content: center; gap: 8px; margin-bottom: 18px; flex-wrap: wrap; }
+  .pill { background: #ffffffb0; border: 1px solid var(--accent-soft); border-radius: 999px; padding: 7px 14px; font-size: 12px; font-weight: 600; box-shadow: 0 4px 10px var(--shadow); }
+  .pill b { color: var(--accent); }
+  .board { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 18px; }
+  .cell {
+    aspect-ratio: 1 / 1; border-radius: 16px; background: #ffffffc0; border: 2px solid var(--accent-soft);
+    display: flex; align-items: center; justify-content: center; font-size: 38px; font-weight: 700;
+    cursor: pointer; box-shadow: 0 6px 14px var(--shadow); transition: transform 0.15s ease;
+  }
+  .cell:hover { transform: translateY(-2px); }
+  .cell.x { color: #E38FA8; }
+  .cell.o { color: #9B7FC7; }
+  .cell.win { background: var(--success-soft); border-color: var(--success); }
+  .status { font-size: 15px; font-weight: 600; margin-bottom: 14px; min-height: 22px; }
+  button {
+    font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 13px; color: var(--text);
+    background: #ffffffc0; border: 1px solid var(--accent-soft); border-radius: 999px;
+    padding: 9px 18px; cursor: pointer; box-shadow: 0 4px 10px var(--shadow); margin: 0 4px;
+  }
+  button:hover { transform: translateY(-1px); }
+  .nav { margin-top: 18px; font-size: 12px; }
+  .nav a { color: var(--muted); text-decoration: none; margin: 0 6px; }
+  .nav a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>🌸 Tic-Tac-Toe</h1>
+    <p class="subtitle">you're 🩷 X — the computer never loses, but it won't always win either</p>
+
+    <div class="stats">
+      <div class="pill">You: <b id="winsYou">0</b></div>
+      <div class="pill">Computer: <b id="winsCpu">0</b></div>
+      <div class="pill">Draws: <b id="draws">0</b></div>
+    </div>
+
+    <div class="status" id="status">Your move</div>
+    <div class="board" id="board"></div>
+
+    <button id="restartBtn">🔁 New Round</button>
+
+    <div class="nav">
+      <a href="../memory-match/">Memory Match</a> ·
+      <a href="../2048/">2048</a> ·
+      <a href="../typing-test/">Typing Test</a> ·
+      <a href="../">Profile</a>
+    </div>
+  </div>
+
+<script>
+  const STORAGE_KEY = 'codeBlossomTTTScore';
+  const boardEl = document.getElementById('board');
+  const statusEl = document.getElementById('status');
+  const winsYouEl = document.getElementById('winsYou');
+  const winsCpuEl = document.getElementById('winsCpu');
+  const drawsEl = document.getElementById('draws');
+  const restartBtn = document.getElementById('restartBtn');
+
+  const WIN_LINES = [
+    [0,1,2],[3,4,5],[6,7,8],
+    [0,3,6],[1,4,7],[2,5,8],
+    [0,4,8],[2,4,6]
+  ];
+
+  let cells = Array(9).fill(null);
+  let gameOver = false;
+
+  function loadScore() {
+    try {
+      const v = localStorage.getItem(STORAGE_KEY);
+      return v ? JSON.parse(v) : { you: 0, cpu: 0, draws: 0 };
+    } catch (e) {
+      return { you: 0, cpu: 0, draws: 0 };
+    }
+  }
+
+  function saveScore(score) {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(score)); } catch (e) {}
+  }
+
+  function renderScore() {
+    const s = loadScore();
+    winsYouEl.textContent = s.you;
+    winsCpuEl.textContent = s.cpu;
+    drawsEl.textContent = s.draws;
+  }
+
+  function checkWinner(board) {
+    for (const line of WIN_LINES) {
+      const [a, b, c] = line;
+      if (board[a] && board[a] === board[b] && board[a] === board[c]) {
+        return { winner: board[a], line };
+      }
+    }
+    if (board.every(v => v)) return { winner: 'draw', line: null };
+    return null;
+  }
+
+  function minimax(board, isMaximizing) {
+    const result = checkWinner(board);
+    if (result) {
+      if (result.winner === 'O') return { score: 1 };
+      if (result.winner === 'X') return { score: -1 };
+      return { score: 0 };
+    }
+
+    const moves = [];
+    for (let i = 0; i < 9; i++) {
+      if (!board[i]) {
+        const next = board.slice();
+        next[i] = isMaximizing ? 'O' : 'X';
+        const { score } = minimax(next, !isMaximizing);
+        moves.push({ idx: i, score });
+      }
+    }
+
+    if (isMaximizing) {
+      let best = moves[0];
+      for (const m of moves) if (m.score > best.score) best = m;
+      return { score: best.score, idx: best.idx };
+    } else {
+      let best = moves[0];
+      for (const m of moves) if (m.score < best.score) best = m;
+      return { score: best.score, idx: best.idx };
+    }
+  }
+
+  function render() {
+    boardEl.innerHTML = '';
+    cells.forEach((val, idx) => {
+      const cell = document.createElement('div');
+      cell.className = 'cell' + (val === 'X' ? ' x' : val === 'O' ? ' o' : '');
+      cell.textContent = val || '';
+      cell.addEventListener('click', () => onCellClick(idx));
+      boardEl.appendChild(cell);
+    });
+  }
+
+  function markWinLine(line) {
+    if (!line) return;
+    const children = boardEl.children;
+    line.forEach(i => children[i].classList.add('win'));
+  }
+
+  function onCellClick(idx) {
+    if (gameOver || cells[idx]) return;
+    cells[idx] = 'X';
+    render();
+
+    const result = checkWinner(cells);
+    if (result) return finish(result);
+
+    statusEl.textContent = 'Computer is thinking...';
+    gameOver = false;
+    setTimeout(cpuMove, 400);
+  }
+
+  function cpuMove() {
+    const { idx } = minimax(cells, true);
+    if (idx !== undefined) {
+      cells[idx] = 'O';
+      render();
+    }
+    const result = checkWinner(cells);
+    if (result) return finish(result);
+    statusEl.textContent = 'Your move';
+  }
+
+  function finish(result) {
+    gameOver = true;
+    const score = loadScore();
+    if (result.winner === 'X') {
+      statusEl.textContent = '🎉 You win!';
+      score.you += 1;
+    } else if (result.winner === 'O') {
+      statusEl.textContent = '🤖 Computer wins.';
+      score.cpu += 1;
+    } else {
+      statusEl.textContent = 'It\'s a draw.';
+      score.draws += 1;
+    }
+    saveScore(score);
+    renderScore();
+    markWinLine(result.line);
+  }
+
+  function restart() {
+    cells = Array(9).fill(null);
+    gameOver = false;
+    statusEl.textContent = 'Your move';
+    render();
+  }
+
+  restartBtn.addEventListener('click', restart);
+
+  renderScore();
+  render();
+</script>
+</body>
+</html>
