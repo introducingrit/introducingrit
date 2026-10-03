@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- 🌸 Pastel Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD1DC,25:C1F0F6,50:D8C9F0,75:FFF3B0,100:C9F7D3&height=250&section=header&text=Ritaja's%20Universe&fontSize=48&fontColor=6B4C7A&animation=twinkling&fontAlignY=35&desc=✨%20AI%2FML%20Intern%20%7C%20Dreaming%20in%20Pastel%20Code%20✨&descAlignY=52&descAlign=50&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD1DC,25:C1F0F6,50:D8C9F0,75:FFF3B0,100:C9F7D3&height=250&section=header&text=Ritaja's%20Universe&fontSize=48&fontColor=6B4C7A&animation=twinkling&fontAlignY=35&desc=✨%20Software%20Developer%20%7C%20Building%20Ideas%20Into%20Code%20✨&descAlignY=52&descAlign=50&descSize=20" width="100%"/>
 
 <!-- ✒️ Typing Effect -->
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=26&duration=2500&pause=800&color=B983C4&center=true&vCenter=true&width=850&height=70&lines=Hi%21+Ritaja%2C+this+side...+%F0%9F%8C%B8;Welcome+to+my+cozy+corner+of+GitHub+%E2%98%81%EF%B8%8F;AI+%2F+ML+Intern+%7C+Deep+Learning+%26+NLP+%F0%9F%8C%B7;Currently+exploring+AI+for+food+supply+chains+%F0%9F%8D%93;Sprinkling+a+little+magic+into+every+model+%E2%9C%A8" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=26&duration=2500&pause=800&color=B983C4&center=true&vCenter=true&width=850&height=70&lines=Hi%21+Ritaja%2C+this+side...+%F0%9F%8C%B8;Welcome+to+my+cozy+corner+of+GitHub+%E2%98%81%EF%B8%8F;Software+Developer+%7C+Python%2C+Web+%26+AI+Apps+%F0%9F%92%BB;Currently+exploring+AI+for+food+supply+chains+%F0%9F%8D%93;Sprinkling+a+little+magic+into+every+model+%E2%9C%A8" alt="Typing SVG" />
 
 <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/Others/Handshake.gif" width="120"/>
 
@@ -24,9 +24,9 @@
 🌸─────────────────────────────────────────────────────🌸
 ```
 
-Hi, I'm **Ritaja** 🌷 — an **AI/ML Summer Intern** who loves turning messy data into something a little magical. My world revolves around **Machine Learning, Deep Learning, and NLP**, and right now I'm especially curious about applying AI to **food supply chains and demand forecasting**.
+Hi, I'm **Ritaja Choudhury** 🌷 — a **Software Developer** who enjoys turning ideas into working products. My toolkit spans **Python, C, Java, DBMS, and HTML**, and I especially enjoy building AI-powered applications — from email generators to chatbots to recommendation engines.
 
-When I'm not training models, I'm probably tidying up a notebook, chasing down a stubborn bug, or sprinkling pastel colors into a README (like this one 🌸).
+When I'm not building something, I'm probably sharpening my problem-solving on LeetCode, chasing down a stubborn bug, or tidying up a README (like this one 🌸).
 
 ```text
 🌼  looking for   : collaborations, internships, cute UI inspo
@@ -45,10 +45,10 @@ When I'm not training models, I'm probably tidying up a notebook, chasing down a
 <td width="60%" valign="top">
 
 ```
-🌸  Name       : Ritaja
-🎀  Role       : AI / ML Summer Intern
-🌈  Fields     : Machine Learning · Deep Learning · NLP
-🍡  Exploring  : AI for food supply chains & demand forecasting
+🌸  Name       : Ritaja Choudhury
+🎀  Role       : Software Developer
+🌈  Fields     : Python · Web Development · AI Integration
+🍡  Exploring  : Building AI-powered apps & sharpening DSA on LeetCode
 ☁️  Mood       : caffeinated & curious
 ```
 
@@ -77,13 +77,15 @@ When I'm not training models, I'm probably tidying up a notebook, chasing down a
 
 <div align="center">
 
-| 🌟 Skill | 💫 Used For |
-|:---:|:---|
-| 🐍 **Python** | ML, DL, NLP, automation |
-| ⚙️ **C** | Systems & core logic |
-| ☕ **Java** | OOP & backend structure |
-| 🗄️ **DBMS** | Structured data, SQL queries |
-| 🌐 **HTML** | Web markup & structure |
+| 🌟 Skill | 💫 Used For | 💥 XP Progress | ⚡ Power Level |
+|:---:|:---|:---|:---|
+| 🐍 **Python** | ML, DL, NLP, automation | ![Python](https://img.shields.io/badge/-85%25-FFD1DC?style=for-the-badge&labelColor=FFF3B0) | █████████░ |
+| ⚙️ **C** | Systems & core logic | ![C](https://img.shields.io/badge/-60%25-C1F0F6?style=for-the-badge&labelColor=D8C9F0) | ██████░░░░ |
+| ☕ **Java** | OOP & backend structure | ![Java](https://img.shields.io/badge/-30%25-D8C9F0?style=for-the-badge&labelColor=C9F7D3) | ███░░░░░░░ |
+| 🗄️ **DBMS** | Structured data, SQL queries | ![DBMS](https://img.shields.io/badge/-55%25-FFF3B0?style=for-the-badge&labelColor=C1F0F6) | ██████░░░░ |
+| 🌐 **HTML** | Web markup & structure | ![HTML](https://img.shields.io/badge/-70%25-C9F7D3?style=for-the-badge&labelColor=FFD1DC) | ███████░░░ |
+
+<sub>XP is a rough blend of project usage and LeetCode solve counts — adjust anytime.</sub>
 
 </div>
 
@@ -157,7 +159,7 @@ When I'm not training models, I'm probably tidying up a notebook, chasing down a
 ## <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=2000&pause=500&color=B983C4&center=false&vCenter=true&width=700&lines=%F0%9F%8F%86+TROPHY+SHELF" alt="Trophy Shelf" />
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=introducingrit&theme=juicyfresh&no-frame=true&no-bg=false&margin-w=8&margin-h=8&row=2&column=4" />
+  <img src="https://github-profile-trophy.vercel.app/?username=introducingrit&theme=juicyfresh&row=2&column=4" />
 </div>
 
 ---
@@ -201,15 +203,25 @@ When I'm not training models, I'm probably tidying up a notebook, chasing down a
 
 ---
 
-## <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=2000&pause=500&color=FF9EBB&center=false&vCenter=true&width=700&lines=%E2%8C%9A%EF%B8%8F+CODING+ACTIVITY" alt="Coding Activity" />
-
-```text
-🍃  ✏️ needs setup: install the free WakaTime VS Code/PyCharm extension,
-     then replace WAKATIME_USERNAME below with your WakaTime username.
-```
+## <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=2000&pause=500&color=FF9EBB&center=false&vCenter=true&width=700&lines=%F0%9F%A7%A9+PROBLEM-SOLVING+%28LeetCode%29" alt="LeetCode" />
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=WAKATIME_USERNAME&theme=cobalt2&hide_border=true&bg_color=00000000&title_color=FF9EBB&icon_color=B983C4&text_color=6B4C7A" />
+  <a href="https://leetcode.com/u/introducing_rit_/">
+    <img src="https://github-readme-leetcode-card.romitsagu.com/introducing_rit_?theme=cobalt2&hide_border=true&bg_color=00000000&title_color=FF9EBB&icon_color=B983C4&text_color=6B4C7A" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+
+| 🌸 Language | 🧩 Problems Solved |
+|:---:|:---:|
+| ⚙️ **C** | 36 |
+| 🗄️ **MySQL** | 26 |
+| 💗 **C++** | 4 |
+| ☕ **Java** | 3 |
+
 </div>
 
 ---
