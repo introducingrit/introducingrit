@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Code &amp; Blossom — Typing Speed Test</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-top: #FFF8FB;
+    --bg-bottom: #F3ECFA;
+    --accent: #B983C4;
+    --accent-soft: #C1F0F6;
+    --pink: #FFD1DC;
+    --success: #9FE6B8;
+    --success-soft: #E4FBEC;
+    --error: #F2A9B8;
+    --text: #6B4C7A;
+    --muted: #A68FB8;
+    --shadow: rgba(185, 131, 196, 0.25);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at top, var(--bg-top), var(--bg-bottom));
+    color: var(--text); padding: 32px 16px;
+  }
+  .wrap { width: 100%; max-width: 560px; text-align: center; }
+  h1 { font-size: 26px; font-weight: 700; margin: 0 0 4px; }
+  .subtitle { font-size: 14px; font-weight: 500; color: var(--muted); margin: 0 0 18px; }
+
+  .stats { display: flex; justify-content: center; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+  .pill { background: #ffffffb0; border: 1px solid var(--accent-soft); border-radius: 999px; padding: 7px 14px; font-size: 12px; font-weight: 600; box-shadow: 0 4px 10px var(--shadow); }
+  .pill b { color: var(--accent); }
+
+  .prompt {
+    background: #ffffffc0; border: 2px solid var(--accent-soft); border-radius: 16px;
+    padding: 18px; font-family: 'Fira Code', monospace; font-size: 16px; line-height: 1.7;
+    text-align: left; margin-bottom: 14px; box-shadow: 0 6px 14px var(--shadow);
+  }
+  .prompt span.correct { color: #4f9f6f; background: var(--success-soft); border-radius: 3px; }
+  .prompt span.incorrect { color: #c24e68; background: var(--error); border-radius: 3px; }
+  .prompt span.current { text-decoration: underline; text-decoration-color: var(--accent); }
+
+  textarea {
+    width: 100%; font-family: 'Fira Code', monospace; font-size: 15px; padding: 12px;
+    border-radius: 12px; border: 2px solid var(--accent-soft); resize: none;
+    outline: none; color: var(--text); background: #fff;
+  }
+  textarea:focus { border-color: var(--accent); }
+
+  button {
+    font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 13px; color: var(--text);
+    background: #ffffffc0; border: 1px solid var(--accent-soft); border-radius: 999px;
+    padding: 9px 18px; cursor: pointer; box-shadow: 0 4px 10px var(--shadow); margin-top: 12px;
+  }
+  button:hover { transform: translateY(-1px); }
+
+  .result { font-size: 15px; font-weight: 600; margin-top: 14px; min-height: 22px; }
+  .nav { margin-top: 18px; font-size: 12px; }
+  .nav a { color: var(--muted); text-decoration: none; margin: 0 6px; }
+  .nav a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>🌸 Typing Speed Test</h1>
+    <p class="subtitle">type the snippet below as fast and accurately as you can</p>
+
+    <div class="stats">
+      <div class="pill">WPM: <b id="wpm">0</b></div>
+      <div class="pill">Accuracy: <b id="accuracy">100%</b></div>
+      <div class="pill">Time: <b id="time">0s</b></div>
+    </div>
+
+    <div class="prompt" id="prompt"></div>
+    <textarea id="input" rows="3" placeholder="start typing here..."></textarea>
+
+    <div class="result" id="result"></div>
+    <button id="restartBtn">🔁 New Snippet</button>
+
+    <div class="nav">
+      <a href="../memory-match/">Memory Match</a> ·
+      <a href="../tic-tac-toe/">Tic-Tac-Toe</a> ·
+      <a href="../2048/">2048</a> ·
+      <a href="../">Profile</a>
+    </div>
+  </div>
+
+<script>
+  const SNIPPETS = [
+    "print('hello world')",
+    "for i in range(10): print(i)",
+    "SELECT * FROM users WHERE active = 1;",
+    "def add(a, b): return a + b",
+    "public static void main(String[] args) {}",
+    "int x = 0; while (x < 10) { x++; }",
+    "<div class=\"card\">pastel and proud</div>",
+    "const sum = (a, b) => a + b;",
+    "import pandas as pd",
+    "git commit -m 'fix: resolve bug'"
+  ];
+
+  const promptEl = document.getElementById('prompt');
+  const inputEl = document.getElementById('input');
+  const wpmEl = document.getElementById('wpm');
+  const accuracyEl = document.getElementById('accuracy');
+  const timeEl = document.getElementById('time');
+  const resultEl = document.getElementById('result');
+  const restartBtn = document.getElementById('restartBtn');
+
+  let target = '';
+  let startTime = null;
+  let timerInterval = null;
+  let finished = false;
+
+  function pickSnippet() {
+    return SNIPPETS[Math.floor(Math.random() * SNIPPETS.length)];
+  }
+
+  function renderPrompt(typed) {
+    promptEl.innerHTML = '';
+    for (let i = 0; i < target.length; i++) {
+      const span = document.createElement('span');
+      span.textContent = target[i];
+      if (i < typed.length) {
+        span.className = typed[i] === target[i] ? 'correct' : 'incorrect';
+      } else if (i === typed.length) {
+        span.className = 'current';
+      }
+      promptEl.appendChild(span);
+    }
+  }
+
+  function startTimer() {
+    stopTimer();
+    startTime = Date.now();
+    timerInterval = setInterval(() => {
+      const elapsed = Math.floor((Date.now() - startTime) / 1000);
+      timeEl.textContent = elapsed + 's';
+    }, 200);
+  }
+
+  function stopTimer() {
+    if (timerInterval) clearInterval(timerInterval);
+    timerInterval = null;
+  }
+
+  function computeAccuracy(typed) {
+    let correct = 0;
+    for (let i = 0; i < typed.length; i++) {
+      if (typed[i] === target[i]) correct++;
+    }
+    return typed.length === 0 ? 100 : Math.round((correct / typed.length) * 100);
+  }
+
+  function onInput() {
+    const typed = inputEl.value;
+    if (finished) return;
+
+    if (startTime === null && typed.length > 0) {
+      startTimer();
+    }
+
+    renderPrompt(typed);
+    accuracyEl.textContent = computeAccuracy(typed) + '%';
+
+    if (startTime !== null) {
+      const elapsedMin = (Date.now() - startTime) / 60000;
+      const wordsTyped = typed.length / 5;
+      wpmEl.textContent = elapsedMin > 0 ? Math.round(wordsTyped / elapsedMin) : 0;
+    }
+
+    if (typed.length >= target.length) {
+      finish(typed);
+    }
+  }
+
+  function finish(typed) {
+    finished = true;
+    stopTimer();
+    inputEl.disabled = true;
+    const acc = computeAccuracy(typed);
+    const finalWpm = wpmEl.textContent;
+    resultEl.textContent = acc === 100
+      ? `🎉 Perfect! ${finalWpm} WPM at 100% accuracy.`
+      : `Done — ${finalWpm} WPM at ${acc}% accuracy. Try again for a cleaner run!`;
+  }
+
+  function restart() {
+    target = pickSnippet();
+    startTime = null;
+    finished = false;
+    stopTimer();
+    inputEl.value = '';
+    inputEl.disabled = false;
+    wpmEl.textContent = '0';
+    accuracyEl.textContent = '100%';
+    timeEl.textContent = '0s';
+    resultEl.textContent = '';
+    renderPrompt('');
+    inputEl.focus();
+  }
+
+  inputEl.addEventListener('input', onInput);
+  restartBtn.addEventListener('click', restart);
+
+  restart();
+</script>
+</body>
+</html>
