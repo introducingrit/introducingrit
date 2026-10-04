@@ -159,7 +159,7 @@ When I'm not building something, I'm probably sharpening my problem-solving on L
 ## <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=2000&pause=500&color=B983C4&center=false&vCenter=true&width=700&lines=%F0%9F%8F%86+TROPHY+SHELF" alt="Trophy Shelf" />
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=introducingrit&theme=juicyfresh&row=2&column=4" />
+  <img src="https://github-profile-trophy.vercel.app/?username=introducingrit&theme=juicyfresh&row=2&column=4&rank=-SECRET&title=Stars,Commits,Followers,Repositories,PullRequest,Issues,Reviews,MultipleLanguages" />
 </div>
 
 ---
