@@ -228,7 +228,7 @@ When I'm not building something, I'm probably sharpening my problem-solving on L
 
 ---
 
-## <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=2000&pause=500&color=FF9EBB&center=false&vCenter=true&width=700&lines=%F0%9F%A7%A9+PROBLEM-SOLVING+%28LeetCode%29" alt="LeetCode" />
+## <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=2000&pause=500&color=FF9EBB&center=false&vCenter=true&width=700&lines=%F0%9F%A7%A9+PROBLEM-SOLVING" alt="LeetCode" />
 
 <div align="center">
   <a href="https://leetcode.com/u/introducing_rit_/">
