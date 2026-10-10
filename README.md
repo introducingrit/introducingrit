@@ -195,6 +195,9 @@ When I'm not building something, I'm probably sharpening my problem-solving on L
   <a href="https://introducingrit.github.io/introducingrit/typing-test/">
     <img src="https://img.shields.io/badge/TYPING%20TEST-C9F7D3?style=for-the-badge&logo=gamepad&logoColor=6B4C7A&labelColor=D8C9F0" />
   </a>
+  <a href="https://introducingrit.github.io/introducingrit/minesweeper/">
+    <img src="https://img.shields.io/badge/MINESWEEPER-E9D9F5?style=for-the-badge&logo=gamepad&logoColor=6B4C7A&labelColor=FFD1DC" />
+  </a>
 </div>
 
 ---
@@ -228,7 +231,7 @@ When I'm not building something, I'm probably sharpening my problem-solving on L
 
 ---
 
-## <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=2000&pause=500&color=FF9EBB&center=false&vCenter=true&width=700&lines=%F0%9F%A7%A9+PROBLEM-SOLVING" alt="LeetCode" />
+## <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=2000&pause=500&color=FF9EBB&center=false&vCenter=true&width=700&lines=%F0%9F%A7%A9+PROBLEM-SOLVING+%28LeetCode%29" alt="LeetCode" />
 
 <div align="center">
   <a href="https://leetcode.com/u/introducing_rit_/">
